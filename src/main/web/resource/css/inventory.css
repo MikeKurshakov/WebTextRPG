@@ -1,0 +1,81 @@
+
+body {
+    text-align: center;
+    font: 16px Arial,Helvetica;
+    background: url("/resource/image/Inventory.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: san-sarif,Arial;
+    font-size: large;
+    color : #f8f8ff;
+}
+
+menu-wrap {
+    width:100%;
+    box-shadow:0px 1px 3px rgba(0,0,0,0.2);
+
+
+}
+
+.menu {
+    width:1500px;
+    margin:0px auto;
+
+
+}
+
+.menu li {
+
+    margin:0px;
+    list-style:none;
+    font-family:'arial, san-sarif';
+
+}
+
+.menu a {
+    transition:all linear 0.15s;
+    color:	#F8F8FF;
+    text-decoration:none;
+}
+
+.menu li:hover > a, .current-item>a {
+    text-decoration:none;
+    color:#DEB887;
+    text-shadow: 2px 2px 8px #000000;
+    background: url(/resource/image/wood2.jpg);
+}
+
+.menu .arrow {
+    font-size:11px;
+    line-height:0%;
+}
+
+/*----- Top Level -----*/
+.menu > ul > li {
+    float:left;
+    display:inline-block;
+    position:relative;
+    font-size:19px;
+    background: url(/resource/image/wood3.jpg) ;
+
+
+
+}
+html {overflow-x: hidden}
+.menu > ul > li > a {
+    padding:10px 40px;
+    display:inline-block;
+    text-shadow:0px 0px 0px rgba(0,0,0,0.4);
+}
+
+.menu > ul > li:hover > a, .current-item {
+    background: url(/resource/image/wood2.jpg);
+
+}
+
+.character
+{
+	
+}
